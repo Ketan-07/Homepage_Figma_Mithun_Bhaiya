@@ -7,6 +7,9 @@
   display: none;
 }
 
+.nav-link{
+  color: #fff !important;
+}
 .navbar {
   display: block;
   background-color: #59496a !important;
