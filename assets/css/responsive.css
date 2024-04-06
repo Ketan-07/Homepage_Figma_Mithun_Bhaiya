@@ -75,6 +75,10 @@
     align-items: center;
     gap: 16px;
   }
+
+  .community-text{
+    text-align: center;
+  }
   .box {
     align-items: center;
     padding: 34px;
