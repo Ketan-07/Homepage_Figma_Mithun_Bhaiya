@@ -1,0 +1,185 @@
+@media (max-width: 768px) {
+  /* * {
+    outline: 1px solid #000;
+  } */
+/*--------Navbar section start---------------*/
+.navbar-desktop {
+  display: none;
+}
+
+.navbar {
+  display: block;
+  background-color: #59496a !important;
+}
+
+
+.important-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: self-start;
+}
+
+.signup-btn {
+  background-color: #4caf4f;
+  color: #fff;
+  border-radius: 5px;
+}
+/*--------Navbar section ends---------------*/
+/*==================Banner section start======================*/
+
+  .banner-parent-div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    align-items: center;
+    background-color: #f5f7fa;
+  }
+
+  .banner-img img {
+    object-fit: contain;
+    padding-top: 2rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /*==================Banner section end===============
+
+    /*===============Client Section start=====================*/
+  .client-parent-div {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .client-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 10px;
+    margin: auto;
+  }
+  /*===============Client Section end=====================*/
+
+  /*==================Community section start================*/
+  .community-parent-div {
+    display: flex;
+    /* width: 1440px; */
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .box {
+    align-items: center;
+    padding: 34px;
+    margin: 0;
+    box-shadow: 0 0 3px grey;
+    margin-bottom: 0px;
+  }
+  .community-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  /*==================Community section end================*/
+
+  /*======================Unlock section start============================*/
+  .Unlock-1parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .Unlock-1-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .Unlock-1-text-1 p {
+    padding: 1rem;
+  }
+  /*======================Unlock section end============================*/
+  /*==================Achivemnt section start================*/
+  .Achievements-parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    flex-direction: column;
+  }
+  .Achivements-logo {
+    flex-direction: column;
+  }
+  .Achivements-logo {
+    padding-right: 0rem;
+  }
+  /*==================Achivemnt section start================*/
+  /*==================Unlock-2 section start================*/
+  .Unlock-2-parent-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .Unlock-2-text-1 p {
+    padding: 0;
+  }
+  .Unlock-2-parent-div {
+    padding: 1rem;
+  }
+
+  .Unlock-2-text-2{
+    margin-bottom: 1rem;
+}
+
+  .Unlock-2-img img {
+    width: 100%;
+  }
+  /*==================Unlock-2 section end================*/
+  /*==================Footer section start================*/
+  .PF {
+    /* height: 20rem; */
+    padding: 1rem;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  .PF {
+    /* height: 20rem; */
+    padding: 1rem;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+  .PF-1-3 {
+    margin-bottom: 1rem;
+}
+
+.PF-2-1 {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.PF-3-1 {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.PF-4 {
+  text-align: center;
+}
+
+.PF-4 h2 {
+    padding-bottom: 1rem;
+}
+  /*==================Footer section end================*/
+}
